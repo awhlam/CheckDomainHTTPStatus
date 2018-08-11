@@ -4,13 +4,15 @@ import requests
 import pandas as pd
 
 # Import domains column of Excel file to list
-df = pd.read_excel('Domain_View_Review_20180730.xlsx', sheet_name=0)
+inputDomainFile = 'DomainList.xlsx'
+
+df = pd.read_excel(inputDomainFile, sheet_name=0)
 domains_list = df['Domain_Name'].tolist()
 
 # Convert domains in list to strings
 domains_list_string = [str(domain) for domain in domains_list]
 
-# Add http:// in front of domain if it isn't already
+# Add http:// in front of domain if the domain doesn't have it already
 domains_list_string_http = []
 
 for domain in domains_list_string:
