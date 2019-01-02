@@ -1,4 +1,4 @@
-# CheckDomainHTTPStatus
+# Check Domain HTTP Status
 A Python script using the Requests and Pandas packages to check the HTTP status of an input spreadsheet of domain names.
 [Reference of HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
 
