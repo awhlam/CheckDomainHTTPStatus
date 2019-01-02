@@ -5,8 +5,7 @@ A Python script using the Requests and Pandas packages to check the HTTP status 
 ## Version History
 * 07/30/18 - Version 1.0 - Initial release
 
-## What it Does
-
+## Functionality
 1. Loads input file
 2. Loops through column named "Domains"
 3. Sends HTTP request to get header
