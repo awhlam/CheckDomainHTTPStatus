@@ -7,8 +7,8 @@ A Python script using the Requests and Pandas packages to check the HTTP status 
 
 ## Functionality
 1. Loads input file
-2. Loops through column named ``Domains``
-3. Sends HTTP request to get header
+2. Loops through column named ``Domain_Names``
+3. Sends HTTP request to get header of the domain name
 4. Writes domain and HTTP status into csv file named ``domains_status.csv``
 
 ## License
